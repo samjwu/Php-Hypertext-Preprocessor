@@ -1,6 +1,9 @@
 <?php
 
 #outputting variables
+
+
+//declare variables
 $var = "variable";
 $num1 = 1;
 $num2 = 2;
