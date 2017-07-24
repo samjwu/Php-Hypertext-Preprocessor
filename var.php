@@ -17,4 +17,5 @@ echo "This is also a " . $var . ".";
 //summation of variables
 echo $num1 + $num2;
 
+
 ?>
