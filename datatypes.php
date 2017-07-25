@@ -50,5 +50,14 @@ $object = new Class(); //object variable is instance of class Class
 var_dump($object);
 echo $object->property;
 
+/*
+Null data types only have the NULL value
+Variables of NULL data type have no value assigned to them
+Note declared variables without assigned values are assigned NULL by default
+NULL can also be used to empty variables
+*/
+$null = null;
+var_dump($null);
+
 
 ?>
