@@ -34,6 +34,21 @@ var_dump($boolean);
 Arrays can store multiple values using indexes
 */
 $array = array(1, 2, 3);
+var_dump($array);
+
+/*
+Objects are data types that contain data and ways to process data
+They are instances of classes
+Classes are structures with certain properties/characteristics and methods/behaviors
+*/
+class Class {
+    function method() {
+        $this->property = 1;
+    }
+}
+$object = new Class(); //object variable is instance of class Class
+var_dump($object);
+echo $object->property;
 
 
 ?>
