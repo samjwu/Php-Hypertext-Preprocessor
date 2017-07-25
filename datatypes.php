@@ -8,11 +8,32 @@ Strings are sequences of characters
 Use single or double quotes ('' or "")
 */
 $string = "This is a string";
+var_dump($string);
 
 /*
 Integers are numbers between -(2^31) and 2^31 - 1
 The three formats are decimal, hexadecimal (0x) and octal (0)
 */
 $integer = 10;
+var_dump($integer);
+
+/*
+Floats are numbers with decimals
+*/
+$float = 3.14;
+var_dump($float);
+
+/*
+Booleans are logical values
+They have two possible values: TRUE or FALSE
+*/
+$boolean = true;
+var_dump($boolean);
+
+/*
+Arrays can store multiple values using indexes
+*/
+$array = array(1, 2, 3);
+
 
 ?>
