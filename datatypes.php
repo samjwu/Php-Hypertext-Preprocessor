@@ -3,6 +3,7 @@
 
 #Data Types
 
+
 /*
 Strings are sequences of characters
 Use single or double quotes ('' or "")
