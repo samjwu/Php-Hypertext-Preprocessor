@@ -33,5 +33,11 @@ echo $_SERVER['PHP_SELF'] . "<br>"; //return the name of this PHP script
 echo $_SERVER['SERVER_NAME'] . "<br>"; //return name of the host server
 echo $_SERVER['HTTP_REFERER'] . "<br>"; //return URL of page on which PHP script runs
 
+/*
+$_REQUEST is an array with data submitted in an HTML form. It is used to collect form data.
+$_POST is an array with data submitted in an HTML form with the post method. It is used to collect form data and can also be used to pass variables
+$_GET is an array with data submitted in an HTML form with the get method. It is used to collect form data and can also be used to collect data sent in the URL
+*/
+
 
 ?>
