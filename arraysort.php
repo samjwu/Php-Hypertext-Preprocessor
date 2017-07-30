@@ -30,7 +30,8 @@ krsort($wordrank);
 The asort() function sorts associative arrays in ascending order by value
 The arsort() function sorts associative arrays in descending order by value
 */
-
+asort($wordrank);
+arsort($wordrank);
 
 
 ?>
