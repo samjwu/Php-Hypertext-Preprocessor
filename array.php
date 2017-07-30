@@ -5,7 +5,6 @@
 
 /*
 PHP has three types of arrays: indexed, associative, and multidimensional
-Multidimensional arrays contain arrays in their arrays
 */
 
 /*
@@ -27,6 +26,24 @@ $associativearray2["key3"] = "val3";
 //Looping over using foreach
 foreach ($associativearray2 as $key => $value) {
     echo "Key:" . $key . " Value:" . $value . "<br>";
+}
+
+/*
+Multidimensional arrays contain arrays in their arrays
+They use multiple indices to select elements
+(Visualize as a matrix)
+*/
+$multidimarray = array(
+    array("00", "01", "02"),
+    array("10", "11", "12"),
+    array("20", "21", "22")
+);
+//Use nested for loops to access the elements of a multidimensional array
+for ($y = 0; $y <= 2; $y++) {
+  for ($x = 0; $x <= 2; $x++) {
+    echo $multidimarray[$y][$x] . " ";
+  }
+  echo "<br>";
 }
 
 
